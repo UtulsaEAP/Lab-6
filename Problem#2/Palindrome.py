@@ -3,9 +3,10 @@ Name: Dante Castilleja
 Lab Time: Friday 3:00
 """
 def check_palindrome(user_input):
-    pal = user_input [::-1]
-    if pal == user_input :
-        print(f'palindrome: {pal}')
+    one = user_input.replace(" ", "")
+    pal = one [::-1]
+    if pal == one :
+        print(f'palindrome: {user_input}')
     else :
         print(f'not a palindrome: {user_input}')
 if __name__ == "__main__":
