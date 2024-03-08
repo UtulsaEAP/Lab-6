@@ -1,13 +1,15 @@
+"""
+Name: Dante Castilleja
+Lab Time: Friday 3:00
+"""
 def process_input(input_string):
       # Split into separate strings
-
+  input_string = list(map(float, user_input.split()))
     # Convert strings to floats
-    
-
     # Get max and average
-    max_value = 
-    average_value = 
-    return max_value, average_value
+  max_value = max(input_string)
+  average_value = sum(input_string) / len(input_string)
+  return max_value, average_value
 
 if __name__ == "__main__":
     # User inputs string w/ numbers
