@@ -8,11 +8,11 @@ def calculate_car_wash_price(service_choice1, service_choice2):
     total = 0
     service = []
     if service_choice1 == '-' and service_choice2 == '-' :
-        print('ZyCar Wash\nBase car wash - $10\n\nTotal price - $10')
+        print('ZyCar Wash\nBase car wash - $10\n-----\nTotal price - $10')
     elif service_choice2 == '-' :
-        print(f'ZyCar Wash\nBase car wash - $10\n{service_choice1} - ${services[service_choice1]}\n\nTotal price - ${base_wash + services[service_choice1]}')
+        print(f'ZyCar Wash\nBase car wash - $10\n{service_choice1} - ${services[service_choice1]}\n-----\nTotal price - ${base_wash + services[service_choice1]}')
     else :
-        print(f'Zycar Wash\nBase car wash - $10\n{service_choice1} - ${services[service_choice1]}\n{service_choice2} - ${services[service_choice2]}\n\nTotal price - ${base_wash + services[service_choice1] + services[service_choice2]}')
+        print(f'Zycar Wash\nBase car wash - $10\n{service_choice1} - ${services[service_choice1]}\n{service_choice2} - ${services[service_choice2]}\n-----\nTotal price - ${base_wash + services[service_choice1] + services[service_choice2]}')
 
     
 if __name__ == '__main__':
