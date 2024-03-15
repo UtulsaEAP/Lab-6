@@ -1,6 +1,9 @@
+"""
+Name: Dante Castilleja
+Lab Time: Friday 3:00
+"""
 def in_order(nums):
     # Type your code here.
-    
 if __name__ == '__main__':
     # Test out-of-order example
     nums1 = [5, 6, 7, 8, 3]
