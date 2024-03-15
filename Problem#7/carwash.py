@@ -6,7 +6,6 @@ def calculate_car_wash_price(service_choice1, service_choice2):
     services = {'Air freshener': 1, 'Rain repellent': 2, 'Tire shine': 2, 'Wax': 3, 'Vacuum': 5}
     base_wash = 10
     total = 0
-    service = []
     if service_choice1 == '-' and service_choice2 == '-' :
         print('ZyCar Wash\nBase car wash - $10\n-----\nTotal price - $10')
     elif service_choice2 == '-' :
