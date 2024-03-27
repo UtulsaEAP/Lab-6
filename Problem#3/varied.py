@@ -20,3 +20,4 @@ if __name__ == "__main__":
 
     print(f'Max Value: {max_value:.2f}')
     print(f'Average Value: {average_value:.2f}')
+ 
