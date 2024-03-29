@@ -18,6 +18,6 @@ if __name__ == "__main__":
     # Call the function and get the results
     max_value, average_value = process_input(user_input)
 
-    print(f'Max Value: {max_value:.2f}')
-    print(f'Average Value: {average_value:.2f}')
+    print(f'{max_value:.2f} {average_value:.2f}')
+
  
