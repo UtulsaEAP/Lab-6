@@ -4,7 +4,7 @@ A contact list is a place where you can store a specific contact with other asso
 Ex: If the input is:
 
     Joe,123-5432 Linda,983-4123 Frank,867-5309
-Frank
+    Frank
 the output is:
 
     867-5309

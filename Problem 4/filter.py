@@ -1,14 +1,13 @@
-def process_and_print(input_string):
-      # Split into separate strings
+def process_and_print(user_input):
+    # Split into separate strings
 
     # Convert strings to integers and filter out negative values
-    input_data = 
+    #input_data = 
 
     # Sort integers in reverse order
-  
-    # Print sorted integers
-    
-    
+
+    # return sorted integers as string with " " separator 
+    return
 
 if __name__ == "__main__":
     # User inputs string w/ numbers
