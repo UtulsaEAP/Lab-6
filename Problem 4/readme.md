@@ -7,4 +7,4 @@ Ex: If the input is:
 the output is:
 
     -2 -6 -7 -39 
-For coding simplicity, follow every output value by a space. Do not end with newline.
+For coding simplicity, follow every output value by a space. Do not end with newline. print(_string_, end = " ")
